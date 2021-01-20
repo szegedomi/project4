@@ -2,8 +2,8 @@ package week11.project4;
 
 public final class Coordinate {
 
-    private double latitude;
-    private double longitude;
+    private final double latitude;
+    private final double longitude;
 
     public Coordinate(double latitude, double longitude) {
         this.latitude = latitude;

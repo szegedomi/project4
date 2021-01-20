@@ -15,4 +15,8 @@ public class Track {
         this.trackPoints.add(tp);
     }
 
+    public double getDistance(){
+        return 0;
+    }
+
 }
